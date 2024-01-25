@@ -1,0 +1,74 @@
+body {
+    background-color: #c7bdff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo-wrapper{
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+    padding: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.todo-wrapper h1{
+   margin: 0%; 
+}
+
+.todo-wrapper p{
+    font-style: italic;
+    color: rgb(7, 7, 74);
+    font-weight:300;
+ }
+
+ .todo-wrapper input{
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(7, 7, 74, 0.279) ;
+    height: 25px;
+    width: 70%;
+ }
+
+ .todo-wrapper #add-button{
+    border: 0;
+    height: 25px;
+    width: 55px;
+    background-color: rgb(24, 101, 244);
+    border-radius: 3px;
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+ }
+
+ .todo-wrapper #clear-completed-button{
+    border: 0;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(241, 78, 53);
+    border-radius: 3px;
+    color: rgb(236, 236, 236);
+ }
+
+ .todo-wrapper #empty-button{
+    border: 0;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(249, 158, 0);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+ }
+
+ .todo-wrapper #save-button{
+    border: 0;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(38, 158, 44);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+ }
+
+ .todo-wrapper ol{
+    margin-top: 30px;
+    margin-left: -25px;
+    transition: all 0.5s ease-out;
+ }
